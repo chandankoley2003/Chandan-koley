@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandan Koley | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Chandan Koley" class="profile-photo">
+      <h1>Chandan Koley</h1>
+      <p class="tagline">Aspiring Software Developer | C++ | Python | Java (Spring Boot) | Machine Learning & Deep Learning</p>
+      <a href="Chandan_Koley_CV.pdf" class="btn">Download CV</a>
+    </div>
+  </header>
+
+  <!-- ABOUT ME -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Chandan Koley, a final-year B.Tech CSE student passionate about software development and AI. I specialize in problem-solving, machine learning, and building practical solutions using Python, Java, and deep learning frameworks.</p>
+    <p>My goal is to contribute to innovative software solutions while continuously improving my skills in AI, ML, and web development.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid skills">
+      <div class="card">Programming: C++, Python, Java (Spring Boot)</div>
+      <div class="card">Databases: SQL, NoSQL</div>
+      <div class="card">AI/ML: CNN, TensorFlow, Keras, ViT</div>
+      <div class="card">Web & Tools: HTML, CSS, JavaScript, PHP, Git, CRON jobs</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid projects">
+      <div class="card">
+        <h3>Deepfake Detection using CNN</h3>
+        <p>Developed a deep learning model using TensorFlow, Keras, and ViT to identify manipulated media and improve detection accuracy from baseline to a production-worthy model.</p>
+      </div>
+      <div class="card">
+        <h3>Music Track Management REST API</h3>
+        <p>Spring Boot REST API for managing tracks with CRUD operations and sorting features; unit-tested and documented.</p>
+      </div>
+      <div class="card">
+        <h3>Tic Tac Toe</h3>
+        <p>Interactive web-based game built with JavaScript for demoing front-end logic and game-state handling.</p>
+      </div>
+      <div class="card">
+        <h3>Email Verification & GitHub Timeline Automation</h3>
+        <p>PHP + CRON solution for email verification and automated GitHub timeline updates using file-based storage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="grid experience">
+      <div class="card">
+        <h3>Business Development Associate - IT NOVA</h3>
+        <p>Worked on promoting online training programs, client engagement, and improving business growth strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact-card">
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+      <p>GitHub: <a href="https://github.com/your-github" target="_blank">github.com/your-github</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Chandan Koley • Built with care</p>
+  </footer>
+</body>
+</html>
